@@ -1,0 +1,189 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: rgb(77, 71, 71);
+    background-image: url(./image/re10.jpeg);
+   background-blend-mode:difference;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+}
+.logo h1{
+    font-size: 40px;
+    color: whitesmoke;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+ul li{
+    display: inline-block;
+    font-size: 22px;
+
+}
+ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 10px;
+}
+ul li a:hover{
+    color:  burlywood;
+}
+.btn button{
+    width: 100px;
+    background-color:rgb(12, 202, 245);
+    border: none;
+    height: 40px;
+    color: whitesmoke;
+    margin-right: 20px;
+    border-radius: 12px;
+}
+.btn button:hover{
+    background-color:burlywood ;
+}
+.showcase{
+    text-align: center;
+    margin-top: 100px;
+    color: whitesmoke;
+}
+.showcase h1{
+    font-size: 90px;
+}
+.showcase p{
+    line-height: 25px;
+    font-size: 18px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.showcase button{
+    margin-top: 30px;
+    width: 100px;
+    background-color:rgb(12, 202, 245);
+    border: none;
+    height: 40px;
+    color: whitesmoke;
+    margin-right: 20px;
+    border-radius: 12px;
+}
+.showcase button:hover{
+    background-color: burlywood;
+}
+.service{
+    display: grid;
+    margin-top: 100px;
+    grid-template-columns: 400px 400px ;
+    grid-template-rows: 300px 300px;
+    align-items: center;
+    justify-content: center;
+}
+.services h1{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.service {
+    width: 100%;
+    height: 100%;
+
+}
+.ser1 img{
+    width: 400px ;
+    height: 300px;
+}
+.ser2{
+    margin-left: 20px;
+}
+.icons{
+    color:rgb(12, 202, 245);
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.ser2 h2{
+    font-size: 30px;
+    margin-bottom: 15px;
+
+}
+.ser2 p{
+    font-size: 18px;
+}
+.ser2 button{
+    margin-top: 30px;
+    width: 100px;
+    background-color: rgb(12, 202, 245);
+    border: none;
+    height: 40px;
+    color: whitesmoke;
+    margin-right: 20px;
+    border-radius: 12px;
+}
+.ser2 button:hover{
+
+    background-color: burlywood;
+}
+
+.btn2{
+    text-align: center;
+    margin-left: 900px;
+    background-color: whitesmoke;
+    color: black;
+    text-decoration: underline;
+    border: none;
+    margin-top: 20px;
+    
+}
+.footer{
+    background-color:rgb(12, 202, 245);
+    margin-top: 100px;
+}
+.footer h2{
+    margin-top: 20px;
+    color: whitesmoke;
+    font-size: 30px;
+}
+.foot{
+    display: grid;
+    /* padding-left: 30px; */
+    justify-content: space-around;
+    grid-template-columns: 400px 400px 400px;
+}
+.footer1 ul li{
+    display: block;
+    padding: 5px;
+    font-size: 18px;
+}
+.footer p{
+    color: white;
+    padding-top: 15px;
+}
+.f4{
+    font-size: 30px;
+    color: whitesmoke;
+}
+span{
+    color: rgb(12, 202, 245);
+}
+
+
+@media screen and (max-width: 600px){
+    .nav-bar{
+        display: flex;
+    }
+    .service{
+        display: grid;
+        grid-template-columns: 400px;
+    }
+    .foot{
+        display: grid;
+        grid-template-columns: 400px;
+        height: 100%;
+    }
+}
